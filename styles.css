@@ -1,0 +1,103 @@
+/* === Base Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Body === */
+body {
+  background-color: #0d1117;
+  color: #f0f6fc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  padding: 40px 20px;
+}
+
+/* === Header === */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  color: #58a6ff;
+}
+
+p.subtitle {
+  font-size: 1.2rem;
+  color: #8b949e;
+}
+
+/* === Section Titles === */
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  color: #79c0ff;
+}
+
+/* === Plugin List & Commands === */
+ul {
+  margin-left: 20px;
+}
+
+code {
+  background-color: #161b22;
+  color: #c9d1d9;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.command {
+  background-color: #21262d;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  color: #d2a8ff;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* === Download Buttons === */
+.downloads {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.downloads a {
+  background-color: #238636;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.downloads a:hover {
+  background-color: #2ea043;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  margin-top: 60px;
+  color: #8b949e;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #58a6ff;
+  text-decoration: none;
+}

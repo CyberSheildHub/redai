@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RedAI Terminal 🧠</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/redai_logo.png" alt="RedAI Logo" class="logo" />
+    <h1>RedAI Terminal 🧠</h1>
+    <p class="tagline">Built for Red Teamers, by James God's Power | <a href="https://cybersheildhub.org" target="_blank">cybersheildhub.org</a></p>
+  </header>
+
+  <main>
+    <section class="download">
+      <h2>⬇️ Download RedAI</h2>
+      <p>Choose the right build for your Windows OS:</p>
+      <div class="buttons">
+        <a href="downloads/redai_64.exe" class="btn">Download 64-bit</a>
+        <a href="downloads/redai_32.exe" class="btn">Download 32-bit</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2>✨ Core Features</h2>
+      <ul>
+        <li>🎤 <strong>Voice Interaction</strong>: AI listens, understands, and replies. Run with: <code>redai.exe --voice</code></li>
+        <li>🚀 <strong>Network Scan</strong>: Quickly probe local IPs. Run: <code>redai.exe network_scan</code></li>
+        <li>🕵️‍♂️ <strong>Stealth Ops (Sim)</strong>: Simulates memory-only payload execution. Run: <code>redai.exe stealth_ops</code></li>
+      </ul>
+    </section>
+
+    <section class="info">
+      <h2>🔧 Installation Guide</h2>
+      <ol>
+        <li>Download your matching .exe above:
+          <ul>
+            <li>✅ <code>redai_64.exe</code> for 64-bit Windows</li>
+            <li>✅ <code>redai_32.exe</code> for 32-bit Windows</li>
+          </ul>
+        </li>
+        <li>Double-click the .exe or run it from <code>cmd</code></li>
+        <li>Launch plugins using commands like:
+          <ul>
+            <li><code>redai.exe --voice</code></li>
+            <li><code>redai.exe network_scan</code></li>
+            <li><code>redai.exe stealth_ops</code></li>
+          </ul>
+        </li>
+        <li>If you get a missing <code>python312.dll</code> error, follow the dev setup below.</li>
+      </ol>
+
+      <h3>🐍 Developer Setup (Optional)</h3>
+      <p>If you're building from source or fixing missing DLLs:</p>
+      <ol>
+        <li>Install Python 3.12 (32 or 64-bit based on your OS)</li>
+        <li>Create a virtual environment:
+          <pre><code>python -m venv redai_env</code></pre>
+        </li>
+        <li>Activate it:
+          <pre><code>redai_env\Scripts\activate</code></pre>
+        </li>
+        <li>Install required modules:
+          <pre><code>pip install -r requirements.txt</code></pre>
+        </li>
+        <li>Run:
+          <pre><code>python redai_main.py --plugin network_scan</code></pre>
+        </li>
+      </ol>
+    </section>
+
+    <section class="updates">
+      <h2>🔭 What's Next?</h2>
+      <p>We're actively upgrading RedAI with real-world AI-driven plugins like vulnerability analysis, file forensics, encrypted memory scanning, and more. Stay updated!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 <strong>RedAI Labs</strong>. All rights reserved. Developed by <a href="https://cybersheildhub.org" target="_blank">James God's Power</a>.</p>
+  </footer>
+</body>
+</html>
